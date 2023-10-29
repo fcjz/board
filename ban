@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="fcjz,凡尘芥之,imageboard,home,anonymous,games,Chinese" />
+    <meta name="description" content="这是fcjz的个人主页，由4chan等匿名版修改风格而来，同时含有介绍、个人链接和动态。" />
+    <meta name="robots" content="noarchive" />
+    <title>凡尘芥之|匿名版</title><link rel="stylesheet" type="text/css" href="css/image" />
+    <link rel="shortcut icon" href="image/fcjz.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css">
+    <style type="text/css">
+        .danbo-slot {
+         width:728px;
+         height:90px;
+         margin:10px auto;
+         overflow:hidden
+        }
+        @media only screen and (max-width:480px) {
+         .danbo-slot {
+          width:300px;
+          height:250px
+         }
+        }
+        </style>
+        </style>
+        <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        var tid = /(^|\.)4channel.org$/.test(location.host) ? 'UA-166538-5' : 'UA-166538-1';
+        ga('create', tid, {'sampleRate': 1});
+        ga('set', 'anonymizeIp', true);
+        ga('send','pageview')</script>
+</head>
+<body>
+  <div id="g-pointer-1"></div>
+  <div id="g-pointer-2"></div>
+  <script>
+  const body = document.querySelector("body");
+const element = document.getElementById("g-pointer-1");
+const element2 = document.getElementById("g-pointer-2");
+const halfAlementWidth = element.offsetWidth / 2;
+const halfAlementWidth2 = element2.offsetWidth / 2;
+
+function setPosition(x, y) { 
+    element.style.transform  = `translate(${x - halfAlementWidth}px, ${y - halfAlementWidth}px)`;       element2.style.transform  = `translate(${x - halfAlementWidth2}px, ${y - halfAlementWidth2}px)`;
+}
+
+body.addEventListener('mousemove', (e) => {
+  window.requestAnimationFrame(function(){
+    setPosition(e.clientX, e.clientY);
+  });
+});
+  </script>
+    <div id="doc">
+        <div id="hd">
+        <div id="logo-fp">
+        <a href="https://fcjz.xyz/" title="Home"><img alt="fcjz" src="image/fcjz.png" width="280" height="200"></a>
+    </div>
+    </div>
+    <div id="bd">
+        <div class="box-outer" id="announce">
+        <div class="box-inner">
+        <div class="boxcontent">
+          <div class="column">
+            <h3 style="text-decoration: underline; display: inline;">Hello, I'm fcjz.</h3>
+            <h3 style="text-decoration: underline; text-align:right;">Nice to meet you.</h3>
+          </div>
+        </div>
+        </div>
+        <div class="box-outer top-box" id="boards">
+        <div class="box-inner">
+        <div class="boxcontent">
+        <div class="column">
+        <h3 style="text-decoration: underline; display: inline;">Websites</h3>
+        <ul>
+        <li><a href="https://notebox.fcjz.xyz/" class="boardlink">notebox &amp digital garden</a></li>
+        <li><a href="https://fcjz.github.io/blog/" class="boardlink">blog</a></li>
+        <li><a href="https://qoto.org/@fcjz/" class="boardlink">SNS</a></li>
+        <li><a href="https://bgm.tv/fcjz/" class="boardlink">bangumi</a></li>
+        <li><a href="https://github.com/fcjz/" class="boardlink">GitHub</a></li>
+        <li><a href="https://www.npmjs.com/~fcjz/" class="boardlink">NPM</a></li>
+        <li><a href="https://note.ms/fcjz" class="boardlink">匿名留言版</a></li>
+        <li><a href="https://steamcommunity.com/id/fcjz/" class="boardlink">Steam</a></li>
+        <li><a href="https://discord.com/" class="boardlink">Discord:fcjz</a></li>
+        <li><a href="https://space.bilibili.com/36286580" class="boardlink">BiliBili</a></li>
+        <li><a href="imagine-cyf@yandex.com/" class="boardlink">YouTube</a></li>
+        <li><a href="imagine-cyf@yandex.com/" class="boardlink">Reddit</a></li>
+        <li><a href="imagine-cyf@yandex.com/" class="boardlink">Tumblr</a></li>
+        <li><a href="imagine-cyf@yandex.com/" class="boardlink">AO3</a></li>
+        <li><a href="imagine-cyf@yandex.com/" class="boardlink">Pixiv</a></li>
+        <li><a href="imagine-cyf@yandex.com/" class="boardlink">Email: imagine-cyf@yandex.com</a></li>
+        </ul>
+        </div>
+        <div class="column">
+        <h3 style="text-decoration: underline; display: inline;">Live in the Internet</h3>
+        <ul>
+        <li><a href="https://notebox.fcjz.xyz/#lain" class="boardlink">Lain</a></li>
+        <li><a href="//boards.4channel.org/g/" class="boardlink">Do some coding</a></li>
+        <li><a href="//boards.4channel.org/tv/" class="boardlink">Browse the random pages</a></li>
+        <li><a href="//boards.4channel.org/k/" class="boardlink">Play 《Girls Don't Lie》</a></li>
+        <li><a href="//boards.4channel.org/o/" class="boardlink">Communicate with yourself</a></li>
+        <li><a href="//boards.4channel.org/an/" class="boardlink">Avoid online disputes</a></li>
+        <li><a href="//boards.4channel.org/tg/" class="boardlink">Traditional Games</a></li>
+        <li><a href="//boards.4channel.org/sp/" class="boardlink">Make games and tools</a></li>
+        <li><a href="//boards.4channel.org/xs/" class="boardlink">Extreme Sports</a></li>
+        <li><a href="//boards.4channel.org/pw/" class="boardlink">Professional Wrestling</a></li>
+        <li><a href="//boards.4channel.org/sci/" class="boardlink">Science &amp; Math</a></li>
+        <li><a href="//boards.4channel.org/his/" class="boardlink">History &amp; Humanities</a></li>
+        <li><a href="//boards.4channel.org/int/" class="boardlink">International</a></li>
+        <li><a href="//boards.4channel.org/out/" class="boardlink">Outdoors</a></li>
+        <li><a href="//boards.4channel.org/toy/" class="boardlink">Toys</a></li>
+        </ul>
+        </div>
+        <div class="column">
+        <h3 style="text-decoration: underline; display: inline;">Live in reality</h3>
+        <ul>
+        <li><a href="//boards.4channel.org/po/" class="boardlink">Take an endless walk alone</a></li>
+        <li><a href="//boards.4channel.org/p/" class="boardlink">Take a bad picture and delete it</a></li>
+        <li><a href="//boards.4channel.org/ck/" class="boardlink">Scribble on a notebook</a></li>
+        <li><a href="//boards.4channel.org/lit/" class="boardlink">Buy something that will only be on the side</a></li>
+        <li><a href="//boards.4channel.org/mu/" class="boardlink">Read paper books and materials</a></li>
+        <li><a href="//boards.4channel.org/fa/" class="boardlink">Practice question</a></li>
+        <li><a href="//boards.4channel.org/3/" class="boardlink">Abandoned by the fashion</a></li>
+        <li><a href="//boards.4channel.org/gd/" class="boardlink">Guard against infectious diseases</a></li>
+        <li><a href="//boards.4channel.org/diy/" class="boardlink">DIY</a></li>
+        <li><a href="//boards.4channel.org/wsg/" class="boardlink">Go downstairs for beef noodles and pancakes</a></li>
+        <li><a href="//boards.4channel.org/qst/" class="boardlink">Design the blueprint</a></li>
+        </ul>
+        </div>
+        <div class="column">
+        <h3 style="text-decoration: underline; display: inline;">Others</h3>
+        <ul>
+        <li><a href="//boards.4channel.org/biz/" class="boardlink">Get money</a></li>
+        <li><a href="https://fcjz.github.io/experiment/" class="Make experiments"></a></li>
+        <li><a href="//boards.4channel.org/fit/" class="boardlink">Travel by bike</a></li>
+        <li><a href="//boards.4channel.org/x/" class="boardlink">Pony Town</a></li>
+        <li><a href="//boards.4channel.org/adv/" class="boardlink">Virtual resume</a></li>
+        <li><a href="//boards.4channel.org/lgbt/" class="boardlink">Web disk data(AList)</a></li>
+        <li><a href="//boards.4channel.org/mlp/" class="boardlink">News</a></li>
+        <li><a href="//boards.4channel.org/news/" class="boardlink">Friends</a></li>
+        <li><a href="//boards.4channel.org/wsr/" class="boardlink">Now</a></li>
+        <li><a href="https://fcjz.xyz/about" class="boardlink">About</a></li>
+        </ul>
+        </div>
+        <br class="clear-bug" />
+        </div>
+        </div>
+        </div>
+        <div class="box-outer top-box" id="popular-threads">
+        <div class="box-inner">
+        <div class="boxcontent">
+        <div id="c-threads"><div class="c-thread"><div class="c-board">人物形象</div><a href="https://s3.bmp.ovh/imgs/2023/10/23/753019d8e1dea63c.png" class="boardlink"><img alt class="c-thumb" src="https://s3.bmp.ovh/imgs/2023/10/23/753019d8e1dea63c.png" width="147" height="150"></a><div class="c-teaser"><b>Habitica习惯点出来的小人……虽然即使没有这个网站我也会保持住习惯，但它也确实还不错</b></div></div>
+        <div class="c-thread"><div class="c-board">礼物</div><a href="https://s3.bmp.ovh/imgs/2023/10/23/f0ddad3a39216bec.jpg" class="boardlink"><img alt class="c-thumb" src="https://s3.bmp.ovh/imgs/2023/10/23/f0ddad3a39216bec.jpg" width="150" height="105"></a><div class="c-teaser"><b>感谢一位友好的奶奶送的礼物，我从刚上学就喜欢这些东西</b></div></div>
+        <div class="c-thread"><div class="c-board">技术</div><a href="https://s3.bmp.ovh/imgs/2023/10/23/b5bf539d30c8b5ba.jpg" class="boardlink"><img alt class="c-thumb" src="https://s3.bmp.ovh/imgs/2023/10/23/b5bf539d30c8b5ba.jpg" width="150" height="180"></a><div class="c-teaser"><b> ？ 请问第一章的内容是筛选合适的沙子吗？</b></div></div>
+        <div class="c-thread"><div class="c-board">不知名</div><a href="https://s3.bmp.ovh/imgs/2023/10/23/d70e8518ffdafe4b.jpg" class="boardlink"><img alt class="c-thumb" src="https://s3.bmp.ovh/imgs/2023/10/23/d70e8518ffdafe4b.jpg" width="124" height="150"></a><div class="c-teaser"><b>一张不知名照片</b></div></div>
+        <div class="c-thread"><div class="c-board">幽灵诡计</div><a href="https://s3.bmp.ovh/imgs/2023/10/23/40c593536722a7ea.jpg" class="boardlink"><img alt class="c-thumb" src="https://s3.bmp.ovh/imgs/2023/10/23/40c593536722a7ea.jpg" width="150" height="150"></a><div class="c-teaser"><b>答官网题目获得的GT壁纸</b></div></div>
+        <div class="c-thread"><div class="c-board">花园</div><a href="https://s3.bmp.ovh/imgs/2023/10/23/4c815b0656b96443.png" class="boardlink"><img alt class="c-thumb" src="https://s3.bmp.ovh/imgs/2023/10/23/4c815b0656b96443.png" width="200" height="100"></a><div class="c-teaser"><b>浏览器中的notebox/数字花园，方便、舒适且充满灵感</b></div></div>
+        <div class="c-thread"><div class="c-board">《四叠半神话大系》</div><a href="https://s3.bmp.ovh/imgs/2023/10/23/6c6db2b477bce804.jpg" class="boardlink"><img alt class="c-thumb" src="https://s3.bmp.ovh/imgs/2023/10/23/6c6db2b477bce804.jpg" width="170" height="125"></a><div class="c-teaser"><b>虽然但是，玫瑰色这种事情，没谁能说得准吧</b></div></div>
+        <div class="c-thread"><div class="c-board">泰拉世界</div><a href="https://s3.bmp.ovh/imgs/2023/10/23/d5c1911d03250fd8.png" class="boardlink"><img alt class="c-thumb" src="https://s3.bmp.ovh/imgs/2023/10/23/d5c1911d03250fd8.png" width="126" height="250"></a><div class="c-teaser"><b>一个泰拉瑞亚森林中的漂流瓶</b>
+        </div></div>
+        </div> </div>
+        </div>
+        </div>
+        <div id="copyright">
+        By fcjz © 2023 . 
+        <br>
+        <br>
+        There is no need to connect.
+        </div>
+        </div>
+        </div>
+        <script type="text/javascript" src="//s.4cdn.org/js/frontpage.min.7.js"></script>
+        <script type="text/javascript">var Opts = {"fpb":"ws","fpc":"ws"};</script>
+        <div id="modal-bg"></div>      
+        </body>
+        </html>
+        
+</body>
+</html>
