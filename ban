@@ -9,6 +9,7 @@
     <title>凡尘芥之|匿名版</title><link rel="stylesheet" type="text/css" href="css/image" />
     <link rel="shortcut icon" href="image/fcjz.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css">
+    <script src="https://libs.afengim.com/libs/jquery-3.1.1/jquery-3.1.1.min.js" type="application/javascript"></script>
     <style type="text/css">
         .danbo-slot {
          width:728px;
@@ -70,7 +71,7 @@ body.addEventListener('mousemove', (e) => {
         <div class="box-inner">
         <div class="boxcontent">
         <div class="column">
-        <h3 style="text-decoration: underline; display: inline;">Websites</h3>
+        <h3 style="text-decoration: underline; display: inline;">Websites (clickable)</h3>
         <ul>
         <li><a href="https://notebox.fcjz.xyz/" class="boardlink">notebox &amp digital garden</a></li>
         <li><a href="https://fcjz.github.io/blog/" class="boardlink">blog</a></li>
@@ -81,64 +82,57 @@ body.addEventListener('mousemove', (e) => {
         <li><a href="https://note.ms/fcjz" class="boardlink">匿名留言版</a></li>
         <li><a href="https://steamcommunity.com/id/fcjz/" class="boardlink">Steam</a></li>
         <li><a href="https://discord.com/" class="boardlink">Discord:fcjz</a></li>
+        <li><a href="https://web.okjike.com/u/655b8b4b-0c8a-4051-8d1c-77e13c6a27c0" class="boardlink">即刻</a></li>
         <li><a href="https://space.bilibili.com/36286580" class="boardlink">BiliBili</a></li>
-        <li><a href="imagine-cyf@yandex.com/" class="boardlink">YouTube</a></li>
-        <li><a href="imagine-cyf@yandex.com/" class="boardlink">Reddit</a></li>
-        <li><a href="imagine-cyf@yandex.com/" class="boardlink">Tumblr</a></li>
-        <li><a href="imagine-cyf@yandex.com/" class="boardlink">AO3</a></li>
-        <li><a href="imagine-cyf@yandex.com/" class="boardlink">Pixiv</a></li>
-        <li><a href="imagine-cyf@yandex.com/" class="boardlink">Email: imagine-cyf@yandex.com</a></li>
+        <li><a href="mailto:imagine-cyf@yandex.com" class="boardlink">Email</a></li>
         </ul>
         </div>
         <div class="column">
-        <h3 style="text-decoration: underline; display: inline;">Live in the Internet</h3>
+        <h3 style="text-decoration: underline; display: inline;">Live in the Internet (Some links)</h3>
         <ul>
         <li><a href="https://notebox.fcjz.xyz/#lain" class="boardlink">Lain</a></li>
-        <li><a href="//boards.4channel.org/g/" class="boardlink">Do some coding</a></li>
-        <li><a href="//boards.4channel.org/tv/" class="boardlink">Browse the random pages</a></li>
-        <li><a href="//boards.4channel.org/k/" class="boardlink">Play 《Girls Don't Lie》</a></li>
-        <li><a href="//boards.4channel.org/o/" class="boardlink">Communicate with yourself</a></li>
-        <li><a href="//boards.4channel.org/an/" class="boardlink">Avoid online disputes</a></li>
-        <li><a href="//boards.4channel.org/tg/" class="boardlink">Traditional Games</a></li>
-        <li><a href="//boards.4channel.org/sp/" class="boardlink">Make games and tools</a></li>
-        <li><a href="//boards.4channel.org/xs/" class="boardlink">Extreme Sports</a></li>
-        <li><a href="//boards.4channel.org/pw/" class="boardlink">Professional Wrestling</a></li>
-        <li><a href="//boards.4channel.org/sci/" class="boardlink">Science &amp; Math</a></li>
-        <li><a href="//boards.4channel.org/his/" class="boardlink">History &amp; Humanities</a></li>
-        <li><a href="//boards.4channel.org/int/" class="boardlink">International</a></li>
-        <li><a href="//boards.4channel.org/out/" class="boardlink">Outdoors</a></li>
-        <li><a href="//boards.4channel.org/toy/" class="boardlink">Toys</a></li>
+        <li><a href="https://codepen.io/" class="boardlink">Do some coding</a></li>
+        <li><a href="https://theuselessweb.com/" class="boardlink">Browse the random pages</a></li>
+        <li><a href="https://www.bilibili.com/video/BV1tV411o7Nm?spm_id_from=333.880.my_history.page.click" class="boardlink">Play 《Girls Don't Lie》</a></li>
+        <li><a href="https://xkcd.com/" class="boardlink">Read XKCD</a></li>
+        <li><a href="https://privatter.me/" class="boardlink">Services for publishing text and images</a></li>
+        <li><a href="https://pony.town/" class="boardlink">Pony Town</a></li>
+        <li><a href="https://bgm.tv/group/topic/371445" class="boardlink">Internet Guide</a></li>
+        <li><a href="https://bgm.tv/group/topic/387197" class="boardlink">resource sharing</a></li>
+        <li><a href="https://bgm.tv/group/topic/377461" class="boardlink">二次元常用</a></li>
+        <li><a href="https://bgm.tv/group/topic/371580" class="boardlink">动画评分12人格类型测试/a></li>
+        <li><a href="https://jandan.net/" class="boardlink">煎蛋网</a></li>
+        <li><a href="https://kydsj.vip/doku.php?id=wiki:%E7%BD%91%E7%AB%99%E7%9B%AE%E5%BD%95" class="boardlink">开源大世界</a></li>
+        <li><a href="https://fuun.fun/" class="boardlink">奇趣网站收藏家</a></li>
+        <li><a href="https://www.zhonghuadiancang.com/" class="boardlink">中华典藏</a></li>
         </ul>
         </div>
         <div class="column">
-        <h3 style="text-decoration: underline; display: inline;">Live in reality</h3>
+        <h3 style="text-decoration: underline; display: inline;">Live in reality (Unable to click)</h3>
         <ul>
-        <li><a href="//boards.4channel.org/po/" class="boardlink">Take an endless walk alone</a></li>
-        <li><a href="//boards.4channel.org/p/" class="boardlink">Take a bad picture and delete it</a></li>
-        <li><a href="//boards.4channel.org/ck/" class="boardlink">Scribble on a notebook</a></li>
-        <li><a href="//boards.4channel.org/lit/" class="boardlink">Buy something that will only be on the side</a></li>
-        <li><a href="//boards.4channel.org/mu/" class="boardlink">Read paper books and materials</a></li>
-        <li><a href="//boards.4channel.org/fa/" class="boardlink">Practice question</a></li>
-        <li><a href="//boards.4channel.org/3/" class="boardlink">Abandoned by the fashion</a></li>
-        <li><a href="//boards.4channel.org/gd/" class="boardlink">Guard against infectious diseases</a></li>
-        <li><a href="//boards.4channel.org/diy/" class="boardlink">DIY</a></li>
-        <li><a href="//boards.4channel.org/wsg/" class="boardlink">Go downstairs for beef noodles and pancakes</a></li>
-        <li><a href="//boards.4channel.org/qst/" class="boardlink">Design the blueprint</a></li>
+        <li><a href="//" class="boardlink">Take an endless walk alone</a></li>
+        <li><a href="//" class="boardlink">Take a bad picture and delete it</a></li>
+        <li><a href="//" class="boardlink">Scribble on a notebook</a></li>
+        <li><a href="//" class="boardlink">Buy something that will only be on the side</a></li>
+        <li><a href="//" class="boardlink">Read paper books and materials</a></li>
+        <li><a href="//" class="boardlink">Practice question</a></li>
+        <li><a href="//" class="boardlink">Abandoned by the fashion</a></li>
+        <li><a href="//" class="boardlink">Guard against infectious diseases</a></li>
+        <li><a href="//" class="boardlink">DIY</a></li>
+        <li><a href="//" class="boardlink">Go downstairs for beef noodles and pancakes</a></li>
+        <li><a href="//" class="boardlink">Design the blueprint</a></li>
         </ul>
         </div>
         <div class="column">
-        <h3 style="text-decoration: underline; display: inline;">Others</h3>
+        <h3 style="text-decoration: underline; display: inline;">Others (Some key words)</h3>
         <ul>
-        <li><a href="//boards.4channel.org/biz/" class="boardlink">Get money</a></li>
-        <li><a href="https://fcjz.github.io/experiment/" class="Make experiments"></a></li>
-        <li><a href="//boards.4channel.org/fit/" class="boardlink">Travel by bike</a></li>
-        <li><a href="//boards.4channel.org/x/" class="boardlink">Pony Town</a></li>
-        <li><a href="//boards.4channel.org/adv/" class="boardlink">Virtual resume</a></li>
-        <li><a href="//boards.4channel.org/lgbt/" class="boardlink">Web disk data(AList)</a></li>
-        <li><a href="//boards.4channel.org/mlp/" class="boardlink">News</a></li>
-        <li><a href="//boards.4channel.org/news/" class="boardlink">Friends</a></li>
-        <li><a href="//boards.4channel.org/wsr/" class="boardlink">Now</a></li>
-        <li><a href="https://fcjz.xyz/about" class="boardlink">About</a></li>
+        <li><a href="https://note.ms/friend" class="boardlink">Friends</a></li>
+        <li><a href="https://fcjz.xyz/now" class="boardlink">Now（待完善）</a></li>
+        <li><a href="https://fcjz.xyz/about" class="boardlink">About（待完善）</a></li>
+        <li><a href="//" class="boardlink">X</a></li>
+        <li><a href="//" class="boardlink">Me</a></li>
+        <li><a href="//" class="boardlink">World</a></li>
+        <li><a href="//" class="boardlink">草稿箱（一些VScode上的随记和手账本、卡片等纸质笔记的粘贴）（待完善）</a></li>
         </ul>
         </div>
         <br class="clear-bug" />
@@ -161,7 +155,7 @@ body.addEventListener('mousemove', (e) => {
         </div>
         </div>
         <div id="copyright">
-        By fcjz © 2023 . 
+        By fcjz © 2024 . 
         <br>
         <br>
         There is no need to connect.
